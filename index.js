@@ -21,7 +21,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  
+  if()
 }
 
 function total() {
