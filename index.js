@@ -26,12 +26,15 @@ function viewCart() {
   return 'Your shopping cart is empty.'
   } else{
     for(var i=0;i<cart.length-1;i++){
-      console.log(cart[i].itemName)
-    }
+      inCart+=cart[i].itemName+' at $'+cart[i].itemPrice+','
+      return inCart;
+    } inCart+=cart[cart.length-1].itemName+' at $'+cart[cart.length-1].itemPrice+'.'
+    return inCart;
   }
+  return inCart
 }
 
-jjj+cart[1].itemName+' at $'+cart[1].itemPrice+','
+
 
 function total() {
   // write your code here
