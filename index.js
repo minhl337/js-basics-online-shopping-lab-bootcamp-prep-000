@@ -54,10 +54,11 @@ function removeFromCart(item) {
     if(cart[i].itemName===item){
       found=i
     } else {
-      found=''
+      found='That item is not in your cart.'
     }
     
   }
+  return found
 }
 
 function placeOrder(cardNumber) {
