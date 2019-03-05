@@ -21,15 +21,15 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var inCart='In your cart, you have';
+  var inCart='In your cart, you have ';
   if(cart.lenght===0){
   return 'Your shopping cart is empty.'
   } else{
     for(var i=0;i<cart.length-1;i++){
-      inCart+=cart[i].itemName+' at $'+cart[i].itemPrice+','
-      return inCart;
+      inCart+=cart[i].itemName+' at $'+cart[i].itemPrice+', '
+
     } inCart+=cart[cart.length-1].itemName+' at $'+cart[cart.length-1].itemPrice+'.'
-    return inCart;
+
   }
   return inCart
 }
