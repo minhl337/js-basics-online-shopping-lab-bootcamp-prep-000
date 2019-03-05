@@ -58,7 +58,7 @@ function removeFromCart(item) {
     }
     
   }
-  return found
+  cart.splice(found,1)
 }
 
 function placeOrder(cardNumber) {
