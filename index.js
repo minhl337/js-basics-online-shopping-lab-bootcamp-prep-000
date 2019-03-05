@@ -24,7 +24,7 @@ function viewCart() {
   var inCart='In your cart, you have ';
   if(cart.length===0){
   return 'Your shopping cart is empty.'
-  } else if{
+  } else if(cart.length=1){
     
   } else{
     for(var i=0;i<cart.length-1;i++){
