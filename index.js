@@ -31,6 +31,8 @@ function viewCart() {
   }
 }
 
+jjj+cart[1].itemName+' at $'+cart[1].itemPrice+','
+
 function total() {
   // write your code here
   
