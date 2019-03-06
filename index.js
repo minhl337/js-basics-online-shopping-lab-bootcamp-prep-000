@@ -58,8 +58,6 @@ function removeFromCart(item) {
     }
     
   }
-  cart.splice(found,1);
-  return cart;
 }
 
 function placeOrder(cardNumber) {
