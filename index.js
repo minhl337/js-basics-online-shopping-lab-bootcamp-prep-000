@@ -52,9 +52,9 @@ function removeFromCart(item) {
   var found=0;
   for(var i=0;i<cart.length;i++){
     if(cart[i].itemName===item){
-      found=i
+      cart.splice(i,1);
     } else {
-      found='That item is not in your cart.'
+      return 'That item is not in your cart.'
     }
     
   }
