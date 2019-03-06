@@ -64,7 +64,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-  var tot=o;
+  var tot=0;
   if(isNaN(cardNumber)){
     return 'Sorry, we don\'t have a credit card on file for you.'
   } else{
