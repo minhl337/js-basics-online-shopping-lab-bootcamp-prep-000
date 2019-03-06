@@ -71,6 +71,6 @@ function placeOrder(cardNumber) {
     for(var i=0;i<cart.length;i++){
       tot+=cart[i].itemPrice
     }
-    return 'You'
+    return 'Your total cost is $'+tot+', which will be charged to the card '+cardNumber+'.'
   }
 }
