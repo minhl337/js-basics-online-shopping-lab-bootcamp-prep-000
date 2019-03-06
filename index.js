@@ -58,7 +58,6 @@ function removeFromCart(item) {
     }
     
   }
-  found--
   cart.splice(found,1);
   return cart;
 }
